@@ -1,8 +1,13 @@
-Sub Macro1()
+Sub Body()
 '
-' Macro1 Macro
-'
-'
+' Body Macro
+' Main formatting for 2 column paper to IEEE standards
+' Sets columns to 3.5' width with 0.24' between columns
+' Spacing st to 0, 0, 0, 6
+' Margins set to 0.75', 1', 0.63', 0,63'
+' Referances set to Chicago
+' Paragraphs alligned left
+' Text allignment is justified
     Selection.WholeStory
     With ActiveDocument.Styles(wdStyleNormal).Font
         If .NameFarEast = .NameAscii Then
